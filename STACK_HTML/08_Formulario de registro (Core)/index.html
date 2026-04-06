@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+
+<body>
+    <h1>Crear cuenta de discord</h1>
+    <form action="/registro" method="post">
+        <div>
+            <label for="nombre_completo">Tu nombre usuario:</label>
+            <input type="text" id="nombre_completo" name="nombre_completo" placeholder="Ingresa tu nombre"> <br><br>
+        </div>
+
+        <div>
+            <label for="correo">Correo electrónico:</label>
+            <input type="text" id="correo" name="correo" placeholder="Ingresa tu correo"> <br><br>
+        </div>
+
+        <div>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" placeholder="Ingresa tu contraseña" /><br><br>
+        </div>
+
+        <div>
+            <label for="confirmar_contraseña">Confirmar Contraseña:</label>
+            <input type="password" id="confirmar_contraseña" name="confirmar_contraseña"
+                placeholder="Confirma tu contraseña" /><br><br>
+        </div>
+
+        <div>
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br><br>   
+        </div>
+
+        <div>
+            <label for="genero">Género:</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="prefiero no decirlo" name="genero" value="otro">
+            <label for="prefiero no decirlo">Prefiero no decirlo</label><br><br>
+        </div>
+
+        <div> 
+            descripción: <br>  
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Cuéntanos sobre ti..."></textarea>
+        </div>
+
+        <div>
+        seleciona tus intereses: <br>  
+        <select name="intereses" id="intereses">
+            <option value="tecnologia">Tecnología</option>
+            <option value="deportes">Deportes</option>
+            <option value="música">Música</option>
+            <option value="viajes">Viajes</option>
+        </select><br><br>
+        </div>
+
+
+        <div>
+            <input type="checkbox" id="suscribirse" name="suscribirse" checked>
+            <label for="suscribirse">acepto los <a href="#">términos y condiciones</a>.</label>
+        </div>
+
+        <input type="submit" value="Registrarse">
+    </form>
+
+</body>
+
+</html>
