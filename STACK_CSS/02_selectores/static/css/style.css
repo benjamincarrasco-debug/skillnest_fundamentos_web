@@ -1,0 +1,54 @@
+h1 {
+    color: chartreuse;
+}
+
+/* seleccion a traves de su clase */
+.rojo {
+    color: red;
+}
+
+/* seleccion a traves de su id (#) */
+#amarillo {
+    color: yellow;
+}
+
+h1 {
+    color: royalblue;
+}
+
+
+p {
+    text-align: right;
+    /*dispone el texto a la derecha - centrado - isquiera*/
+}
+
+.is-centered {
+    text-align: center;
+}
+
+
+.is-orange {
+    color: darkorange;
+}
+
+#container {
+    width: 200px;
+    /*ancho*/
+    height: 200px;
+    /*alto*/
+    padding: 10px;
+    /*espacio interno*/
+}
+
+#avatar {
+    width: 150px;
+    /*ancho*/
+    height: 150px;
+    /*alto*/
+    border-radius: 50%;
+    /*agrega al elemento esquina redondeada*/
+    margin-top: 20px;
+    /*espacio superior del margen*/
+    margin-left: 25px;
+    /*espacio izquierdo del margen*/
+}
