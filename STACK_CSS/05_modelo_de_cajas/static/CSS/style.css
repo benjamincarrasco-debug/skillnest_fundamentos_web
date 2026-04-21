@@ -1,0 +1,57 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f7f9;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #1a2b3c;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.subtitulo a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Contenedor de las cajas */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Estilo base de cada caja */
+.caja {
+  width: 300px;
+  height: 180px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;    /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Colores específicos */
+.azul { background-color: #0088cc; }
+.roja { background-color: #f44336; }
+.verde { background-color: #2ecc71; }

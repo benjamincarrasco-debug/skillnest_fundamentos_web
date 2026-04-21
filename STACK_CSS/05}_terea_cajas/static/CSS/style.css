@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Contenedor que pone las cajas en 3 columnas */
+.cuadricula {
+    display: grid;
+    grid-template-columns: 30% 30% 30%; /* 3 columnas de igual tamaño */
+    justify-content: center; /* Centra la cuadrícula en la pantalla */
+    gap: 20px; /* Espacio entre las cajas */
+    margin-top: 30px;
+}
+
+/* Molde básico para todas las cajas */
+.caja {
+    background-color: white;
+    border-radius: 10px; /* Bordes redondos */
+    overflow: hidden; /* Evita que el color de arriba se salga del borde redondo */
+    border: 1px solid #ddd; /* Borde gris muy suave */
+}
+
+/* Parte de arriba de la caja (donde va el color) */
+.cabecera {
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Parte de abajo de la caja (texto y enlace) */
+.cuerpo {
+    padding: 20px;
+}
+
+/* Colores para pintar cada cabecera */
+.azul { background-color: #5097d8; }
+.rojo { background-color: #e55c50; }
+.verde { background-color: #57b778; }
+.amarillo { background-color: #f3c24b; }
+.morado { background-color: #a470c6; }
+.turquesa { background-color: #439ca8; }
