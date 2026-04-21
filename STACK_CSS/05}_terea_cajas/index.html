@@ -1,64 +1,73 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explora tus intereses</title>
-    <link rel="stylesheet" href="static/CSS/style.css">
+    <meta name="author" content="Fernando Vásquez">
+    <title>Modelo de cajas</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
 <body>
+    <header class="titulo encabezado negra">
+        <h1 class="titulo1">Explorando el modelo de cajas</h1>
+        <p>Aprende a crear cajas con CSS replicando estos ejemplos.
+            <a class="sinDeco" href="#">Descubre más aquí.</a>
+        </p>
+    </header>
+    <main class="container">
 
-    <h1>Explora tus intereses con cajas</h1>
-    <p>Ejemplo simplificado en dos archivos.</p>
-
-    <div class="cuadricula">
-        <div class="caja">
-            <div class="cabecera azul">🎮 Videojuegos</div>
-            <div class="cuerpo">
-                <p>Explora tu pasión por los videojuegos.</p>
-                <a href="#">Ver ejemplo</a>
+        <section class="parte">
+            <div class="caja">
+                <h3 class="subTitulo color1 borde">🎮Videojuegos</h3>
+                <div class="parte">
+                    <p class="espacioInferior"> Explora tu pasión por los videojuegos.</p> 
+                    <a href="#">Ver ejemplo de CSS</a>
+                </div>
             </div>
-        </div>
 
-        <div class="caja">
-            <div class="cabecera rojo">🚀 Ciencia y Tecnología</div>
-            <div class="cuerpo">
-                <p>Descubre las últimas innovaciones.</p>
-                <a href="#">Ver ejemplo</a>
+            <div class="caja">
+                <h3 class="subTitulo color2 borde">🚀Ciencia y tecnologia</h3>
+                <div class="parte">
+                    <p class="espacioInferior">Descubre las ultimas innovaciones.</p>
+                    <a href="#">Ver ejemplo de CSS</a>
+                </div>
             </div>
-        </div>
 
-        <div class="caja">
-            <div class="cabecera verde">🏋️ Salud y Fitness</div>
-            <div class="cuerpo">
-                <p>Mantente en forma y saludable.</p>
-                <a href="#">Ver ejemplo</a>
+            <div class="caja">
+                <h3 class="subTitulo color3 borde">🏋️Salud y fitness</h3>
+                <div class="parte">
+                    <p class="espacioInferior">Mantente en forma y saludable.</p>
+                    <a href="#">Ver ejemplo de CSS</a>
+                </div>
             </div>
-        </div>
-
-        <div class="caja">
-            <div class="cabecera amarillo">📖 Literatura</div>
-            <div class="cuerpo">
-                <p>Sumérgete en el mundo de los libros.</p>
-                <a href="#">Ver ejemplo</a>
+            <div class="caja">
+                <h3 class="subTitulo color4 borde">📕Literatura</h3>
+                <div class="parte">
+                    <p class="espacioInferior">Sumérgete en el mundo de los libros.</p>
+                    <a href="#">Ver ejemplo de CSS</a>
+                </div>
             </div>
-        </div>
 
-        <div class="caja">
-            <div class="cabecera morado">🎨 Arte y Creatividad</div>
-            <div class="cuerpo">
-                <p>Exprésate a través del arte.</p>
-                <a href="#">Ver ejemplo</a>
+            <div class="caja">
+                <h3 class="subTitulo color5 borde">🎨Arte y Creatividad</h3>
+                <div class="parte">
+                    <p class="espacioInferior">Exprésate a través del arte. </p>
+                    <a href="#">Ver ejemplo de CSS</a>
+                </div>
             </div>
-        </div>
 
-        <div class="caja">
-            <div class="cabecera turquesa">✈️ Viajes y Aventura</div>
-            <div class="cuerpo">
-                <p>Inspírate a explorar el mundo.</p>
-                <a href="#">Ver ejemplo</a>
+            <div class="caja">
+                <h3 class="subTitulo color6 borde">🛩️Viajes y Aventuras</h3>
+                <div class="parte">
+                    <p class="espacioInferior">Inpírate a explorar.</p>
+                    <a href="#">Ver ejemplo de CSS</a>
+                </div>
             </div>
-        </div>
-    </div>
-
+    </main>
+    <!--conexion con js-->
+    <script src="static/js/script.js"></script>
 </body>
+
 </html>

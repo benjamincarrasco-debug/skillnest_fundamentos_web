@@ -1,48 +1,83 @@
 *{
-    margin: 0;
-    padding: 0;
+    padding:0;
+    margin:0;
     box-sizing: border-box;
-}
-body {
-    background-color: #f4f6f9;
-    font-family: Arial, sans-serif;
+    font-family: 'roboto', sans-serif;
     text-align: center;
 }
 
-/* Contenedor que pone las cajas en 3 columnas */
-.cuadricula {
-    display: grid;
-    grid-template-columns: 30% 30% 30%; /* 3 columnas de igual tamaño */
-    justify-content: center; /* Centra la cuadrícula en la pantalla */
-    gap: 20px; /* Espacio entre las cajas */
-    margin-top: 30px;
+body{
+    padding:40px;
 }
 
-/* Molde básico para todas las cajas */
-.caja {
-    background-color: white;
-    border-radius: 10px; /* Bordes redondos */
-    overflow: hidden; /* Evita que el color de arriba se salga del borde redondo */
-    border: 1px solid #ddd; /* Borde gris muy suave */
+.titulo{
+    text-align: center;
 }
 
-/* Parte de arriba de la caja (donde va el color) */
-.cabecera {
-    padding: 15px;
-    color: white;
+.titulo1{
+    margin-bottom: 40px;
+}
+
+.encabezado{
+    padding:40px;
+}
+.negra{
     font-weight: bold;
-    font-size: 18px;
 }
 
-/* Parte de abajo de la caja (texto y enlace) */
-.cuerpo {
+.sinDeco{
+    text-decoration: none;
+}
+
+.container{
+    margin:0 auto;
+    width: 950px;
+}
+
+.caja{
+    display: inline-block;
+    font-weight: bold;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border:solid 1px rgb(122, 122, 122);
+    border-radius: 10px;
+}
+
+.subTitulo{
+    color: white;
     padding: 20px;
 }
 
-/* Colores para pintar cada cabecera */
-.azul { background-color: #5097d8; }
-.rojo { background-color: #e55c50; }
-.verde { background-color: #57b778; }
-.amarillo { background-color: #f3c24b; }
-.morado { background-color: #a470c6; }
-.turquesa { background-color: #439ca8; }
+.parte{
+    padding: 20px;
+}
+
+.espacioInferior{
+margin-bottom: 20px;
+}
+
+.color1{
+    background-color: #008DD2;
+}
+
+.color2{
+    background-color: #EE433A;
+}
+
+.color3{
+    background-color: #00C56A;
+}
+
+.color4{
+    background-color: #F9CB4C;
+}
+
+.color5{
+    background-color: #9F6AC2;
+}
+
+.color6{
+    background-color: #3898A9;
+}
