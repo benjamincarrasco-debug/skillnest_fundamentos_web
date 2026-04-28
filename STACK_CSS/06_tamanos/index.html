@@ -4,28 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamaños en CSS</title>
-    <!--link css-->
-    <link rel="stylesheet" href="static/CSS/style.css">
+    <meta name="author" content="yopo">
+    <title>Modelo de caja CSS</title>
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
-    <header class="encabezado">
-        <h1 class="titulo_header">tamaños en CSS</h1>
+    <header class="enca">
+        <h1 class="titulo1">Tamaños en CSS</h1>
     </header>
     <main class="container">
-        <section class="row"> <!--row es igual a un fila-->
-            <h3 class="cursiva">Ejempo 1: Botón</h3>
-            <button class="aceptar">Aceptar</button>
-            <h3 class="cursiva">Ejemplo 2: con 80% de ancho</h3>
+        <h2>Ejemplos:</h2>
+        <section class="row"> <!--row. fila -->
+            <h3 class="titulo">Ejemplo 1: botón</h3>
+            <button class="aceptar">aceptar</button>
+            <h3 class="titulo">Ejemplo 2: Caja con 80% de ancho</h3>
             <div class="caja1"></div>
-            <h3 class="cursiva">Ejemplo 3: Parrafo</h3>
-            <p class="parrafo1">Parrafo ejemplo</p>
-            <h3 class="cursiva">Ejemplo 4: link"></h3>
-            <a class="link1" href="#">Click aqui</a>
+            <h3 class="titulo">Ejemplo 3: Parrafo</h3>
+            <p class="parra1">Parrafo de ejemplo</p>
+            <h3 class="titulo">Ejemplo 4: Link</h3>
+            <a class="link1" href="#">Click aquí</a>
+        </section>
+        <hr>
+        <section class="row">
+            <h2>Aplicando overflow</h2>
+            <div class="caja hidden">
+                <p>Ejemplo: hidden</p>
+                <div class="example1"></div>
+            </div>
+            <div class="caja scroll">
+                <p>Ejemplo: scroll</p>
+                <div class="example2"></div>
+            </div>
+            <div class="caja auto">
+                <p>Ejemplo: auto</p>
+                <div class="example3"></div>
+            </div>
+        </section>
+        <section class="raw">
+            <h3 class="banner">Ejemplo 6: </h3>
+        </section>
+        <section>
+            <h3 class="cursiva">Ejemplo 7: bordes y estilos</h3>
+            <button class="cancelar">aceptar</button>
+            <div class="articulo"></div>
+            <h3 class="cursiva"></h3>
+        </section>
+        <section class="cursiva">
+            <h3>Ejemplo 8: redondeado</h3>
+            <button class="boton_redondeado">Ejecutar</button>
+            <div class="caja_redondeado">+</div>
+        </section>
+        <section class="row">
+            <h3 class="cursiva">Ejemplo 9: Cajas (padding - margin)</h3>
+            <div class="cajitas box1">padding general</div>
+            <div class="cajitas box2">padding izquierda - derecho</div>
+            <div class="cajitas box3">Margin general</div>
+            <div class="cajitas box4">Margin y padding</div>
+            <div class="cajitas box5">caja ignorada</div>
+            <p>Texto ignora la caja</p>
+            <p>Texto ignora la caja</p>
+            <p>Texto ignora la caja</p>
         </section>
     </main>
-    <script src="static/JS/script.js"></script>
+    <script src="static/js/script.js"></script>
 </body>
 
 </html>

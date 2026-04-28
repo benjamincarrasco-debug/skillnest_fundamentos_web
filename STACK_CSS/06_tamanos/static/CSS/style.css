@@ -2,30 +2,39 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* contabiliza los bordes */
+    /* Contabiliza bordes*/
+    outline: solid 0.1px red;
 }
 
-.encabezado {
+.enca {
     width: 100%;
-    /* todo el ancho de la pagina */
-    background-color: darkslateblue;
+    background-color: rgb(35, 126, 206);
+    padding: 10px;
 }
 
-.titulo_header {
+.titulo1 {
     text-align: center;
-    color: aqua;
-    padding: 15px;
+    color: white;
+}
+
+.titulo {
+    color: blue;
+    margin-top: 15px;
+    font-style: italic;
 }
 
 .container {
-    outline: solid 1px rgb(122, 122, 122);
-    width: 900px;
-    /* Centrar un elemento */
+    outline: solid 1px;
     margin: 0 auto;
+    width: 900px;
     padding: 20px;
 }
 
-/* Tamaños ejemplos CSS */
+.row {
+    padding: 30px;
+}
+
+/*Tamaños ejemplos CSS*/
 .aceptar {
     width: 100px;
     height: 50px;
@@ -33,21 +42,121 @@
 
 .caja1 {
     margin: 0 auto;
-    /* Centrar un elemento */
     width: 80%;
-    /* Porcejntaje para dar tamaño 80/100 */
     height: 200px;
-    background-color: grey;
+    background-color: gold;
 }
 
-.parrafo1 {
-    font-size: 10px;
+.parra1 {
+    font-size: 40px;
 }
 
 .link1 {
-    font-size: 100px;
+    font-size: 300%;
 }
 
-.cursiva {
-    font-style: italic;
+/* 
+Manejo del contenido con overflow: visible, hidden, scroll, auto
+*/
+div {
+    width: 200px;
+    height: 100px;
+}
+
+.example1 {
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+}
+
+.example2 {
+    height: 100px;
+    width: 300px;
+    background-color: rgb(67, 67, 67);
+}
+
+.example3 {
+    height: 100px;
+    width: 300px;
+    background-color: rgb(67, 6, 85);
+}
+
+.hidden {
+    overflow: hidden;
+    /* Oculta los elemetos que sobresalen del contenedor */
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.auto {
+    overflow: auto;
+}
+
+.banner {
+    height: 200px;
+    width: 200px;
+    background: red url(/STACK_CSS/06_tamanos/static/images/banner.png) no-repeat center center;
+    background-size: 100%;
+}
+
+/*🟫 Bordes y estilos*/
+.cancelar {
+    border: 2px green;
+    /* dotted: linea segmentada*/
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.articulo {
+    border: 1px solid rgb(red, green, blue);
+    height: 50px;
+    width: 100%;
+}
+
+/*Bordes redondeados*/
+.boton_redondeado {
+    border-radius: 15px;
+    /* redondea esquinas*/
+    padding: 10px 40px;
+}
+
+.caja_redondeado {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 10px 16px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+}
+.cajitas{
+    width: 100px;
+    height: 40px;
+    outline: solid 1px blue;
+}
+.box1{background-color: azure;
+    padding: 10px;
+}
+.box2{background-color: yellow;
+    padding-top: 0px;/*espacio interno: arriba*/
+    padding-right: 5px;/*espacio interno: derecha*/
+    padding-bottom: 0%;/*espacio interno: abajo*/
+    padding-left: 5px;/*espacio interno: izquierda*/
+    /*padding: 0px 5px 0px 5px -->  aplicanco en todos los lados;*/
+    /* padding: 0px 5px ---> 0px del eje (Y) y 5px del eje (x)*/
+}
+.box3{background-color: coral;
+    margin: 10px;/*Margen externo: Separa elementos*/
+}
+.box4{background-color: green;
+    margin: 0px 10px;/* eje x modificado con margin*/
+    padding: 5px 0px;/*eje y modificado con padding*/
+}
+.box5{
+    background-color: rgb(15, 15, 65);
+    float: left;
+    width: 100px;
 }
