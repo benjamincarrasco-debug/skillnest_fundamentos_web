@@ -1,0 +1,84 @@
+.contenedor {
+    text-align: center;
+}
+
+.tarjeta {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: lightseagreen;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/*-----------------------------------------------------*/
+/*----------------------sitio HTML---------------------*/
+/*-----------------------------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header*/
+.header{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu{
+    margin-top: 10px;
+}
+.boton{
+    display: inline-block;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px; ;
+}
+.boton:hover{
+    background-color: #8d8b8b;
+}
+.contenedor_principal{
+    padding: 25px 50px;
+}
+.resaltado{
+    display: inline;
+    background-color: yellow;
+    font-weight: bold;
+}
+.contenedor_tarjetas{
+    text-align: center;
+    padding: 20px;
+}
+.box{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.bloque{
+    display: block;
+    background-color: tomato;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+}
+.footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    
+}
