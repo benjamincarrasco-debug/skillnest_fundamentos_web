@@ -1,0 +1,32 @@
+body { font-family: sans-serif; background-color: #ddd; margin: 20px; }
+
+.header { 
+    background-color: green; color: white; padding: 30px; 
+    text-align: center; font-size: 30px; margin-bottom: 10px;
+}
+
+.main-container { display: flex; gap: 10px; }
+
+.barraaz{ 
+    background-color: royalblue; width: 200px; padding: 5px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    justify-content: center;
+    gap: 15px
+    }
+
+.content{ 
+    background-color: red; flex-grow: 1; padding: 20px; 
+    display: flex; flex-direction: column;
+}
+
+.cards{ display: flex; gap: 10px;}
+.card { background-color: yellow; flex: 1; height: 200px;}
+
+.footer{ 
+    background-color: purple; padding: 20px; text-align: center; 
+}
+
+.btn { background-color: yellow; border: none; padding: 50px; border-radius: 30px;}
+.blanco { background-color: white; border: none; padding: 10px 30px; border-radius: 20px;}
