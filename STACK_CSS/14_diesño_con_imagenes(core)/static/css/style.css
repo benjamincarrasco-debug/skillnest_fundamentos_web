@@ -1,0 +1,19 @@
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 2px 3px;
+}
+
+.Titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.Columnas {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
