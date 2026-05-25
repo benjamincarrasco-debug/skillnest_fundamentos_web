@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fernando Vásquez">
+    <title>Guía Visual de Flexbox</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Guía Visual de Flexbox</h1>
+        <p>Aprendiendo justify-content, aling-items,
+            flex-direction y gap
+        </p>
+    </header>
+    <nav class="nav">
+        <a href="#">Inicio</a>
+        <a href="#">Flexbox</a>
+        <a href="#">Ejemplos</a>
+        <a href="#">Contactos</a>
+    </nav>
+    <main class="main">
+        <section class="seccion">
+            <h2>1. Justify-Content + Gap</h2>
+            <p>justify-content:center centrar ekementos horizontalmente y
+                gap agrega separación.</p>
+            <div class="contenedor ejemplo1">
+                <div class="caja">1</div>
+                <div class="caja">2</div>
+                <div class="caja">3</div>
+            </div>
+        </section>
+        <section class="seccion">
+            <h2>2. Aling-items + gap</h2>
+            <p>aling-items:center centrar los elementos verticalmente que contiene y gap separa las cajas.</p>
+            <div class="contenedor ejemplo2">
+                <div class="caja">1</div>
+                <div class="caja">2</div>
+                <div class="caja">3</div>
+            </div>
+        </section>
+        <section class="seccion">
+            <h2>3. Flex direction Column + Gap</h2>
+            <p>flex-direction:column cambia la dirección de los elementos
+                a vertical y gap agrega separación.</p>
+            <div class="contenedor ejemplo3">
+                <div class="caja">1</div>
+                <div class="caja">2</div>
+                <div class="caja">3</div>
+            </div>
+        </section>
+        <section class="seccion">
+            <h2>4. Space between + Aling items</h2>
+            <p>space-between distribuye el espacio horizontalmente y
+                aling-items:center centrar verticalmente.</p>
+            <div class="contenedor ejemplo4">
+                <div class="caja">1</div>
+                <div class="caja">2</div>
+                <div class="caja">3</div>
+            </div>
+        </section>
+        <section class="seccion">
+            <h2>5. Centrado completo</h2>
+            <p>justify-content:center + aling-items:center permiten
+                centrar perfectamente un elemento dentro.</p>
+            <div class="contenedor ejemplo5">
+                <div class="caja caja_grande">Centrado</div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Ejemplo de flex. Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>

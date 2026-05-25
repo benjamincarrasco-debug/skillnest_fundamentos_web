@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #c0c0c0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+.header{
+    background-color: #1e293b;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+/* Diseño NAV */
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #334155;
+    padding: 15px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main{
+    padding: 30px;
+}
+.seccion{
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.644);
+}
+.contenedor{
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    height: 200px;
+    border: 3px dashed #94a3b8;
+    margin-top: 20px;
+}
+.caja{
+    width: 80px;
+    height: 80px;
+    background-color: steelblue;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EJEMPLO */
+/* 1.- justify content + gap */
+.ejemplo1{
+    justify-content: center; /* centrar contenido */
+    gap: 20px;
+}
+/* 2.- aling items + gap */
+.ejemplo2{
+    align-items: center;
+    gap: 20px;
+}
+/* 3.- flex direction + gap */
+.ejemplo3{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+/* 4.- space between + aling items */
+.ejemplo4{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+/* 5.- Centrado perfecto */
+.caja_grande{
+    width: 180px;
+    height: 100px;
+}
+.ejemplo5{
+    justify-content: center;
+    align-items: center;
+}
