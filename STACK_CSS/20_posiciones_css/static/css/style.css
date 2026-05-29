@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(243, 243, 243);
+    color: rgba(0, 0, 0, 0.74);
+    /*Altura exagerada para ver scroll*/
+    min-height: 150vh;
+    padding-bottom: 50px;
+}
+/*posicion fija  (fixed)*/
+.barra-navegacion{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    padding: 15px 30px;
+    color: white;
+    background-color: rgb(19, 19, 19);
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;/*posicion en capas*/
+    box-shadow: 0 4px 6px rgb(37, 37, 37);
+}
+.barra-navegacion h1{
+    font-size: 1.2rem;
+}
+
+.enlace-nav{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3 ease;
+}
+.enlace-nav:hover{
+    color: aqua;
+}
+/*contenedor Principal*/
+.contenedor-principal{
+    display: flex;
+    flex-wrap: wrap; /*cuando los elementos no caben, bajan autom*/
+    justify-content: center;
+    gap: 30px;
+    margin: 100px;/* MArgen para que el contenido quede visible*/
+}
+.tarjeta{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 5px 15px black;
+    flex-direction: column;
+    gap:15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tarjeta:hover {
+    transform: translateY(-10px);/*movimiento hacia arriba*/
+    box-shadow: 0 15px 25px black;
+}
+.tarjeta h2{
+    font-size: 1.3rem;
+    color: rgb(45, 45, 121);
+    border-bottom:  2px solid rgb(0, 0, 00.1);
+    padding-bottom: 10px;
+}
+.explicacion {
+    font-size: 0.9rem;
+    color:rgb(75, 75, 302);
+    line-height: 1.4;
+}
+.bloque-normal{
+    background-color: rgb(206, 232, 255);
+    color: black;
+    padding: 12px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.bloque-estatico{
+    position: static;
+    /*intentaremos moverlo, CSS ignorará el movimiento */
+    top: 40px;
+    left: 40px;
+    background-color: rgb(133, 133, 133);
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 2px solid rgb(69, 69, 69);
+}
+/*EJEMPLO RELATIVE (el fantasma)*/
+.molde-fantasma{
+    border: 2px dashed rgb(194, 194, 194);
+    border-radius: 6px;
+    height: 48px;
+    position: relative;
+    /*se mueve a partir del molde fantasma*/
+    top: 25px;
+    left: 30px;
+    background-color: orangered;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgb(127, 34, 0);
+}

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 380px;
+    padding: 35px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+
+.avatar-container {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(41, 62, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+}
+
+
+.name {
+    font-size: 22px;
+    color: rgb(26, 26, 26);
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.title {
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 13px;
+    color: rgb(68, 68, 68);
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.link {
+    color: rgb(0, 85, 204);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.link:hover {
+    color: rgb(0, 51, 170);
+}
+
+.btn-connect {
+    background-color: rgb(43, 130, 201);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 30px;
+    font-size: 13px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-connect:hover {
+    background-color: rgb(31, 100, 154);
+}

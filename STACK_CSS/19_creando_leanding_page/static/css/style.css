@@ -82,3 +82,7 @@ body {
     gap: 25px;
     align-items: center;
 }
+.segundo{
+    display: flex;
+    justify-content: center;
+}
