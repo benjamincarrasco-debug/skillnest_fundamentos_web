@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <meta name="author" content="Benjamin Carrasco">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar">
+        <div class="nav-logo">Perfil</div>
+        <ul class="nav-links">
+            <a href="#">Inicio</a>
+            <a href="#" class="active">Mi perfil</a>
+            <a href="#">Conexiones</a>
+            <button class="btn-logout">Cerrar sesión</button>
+        </ul>
+    </nav>
+
+
+    <main class="main-container">
+
+
+        <section class="profile-tarjeta">
+            <div class="tarjeta-banner"></div>
+            <div class="tarjeta-avatar"></div>
+            <div class="tarjeta-info">
+                <h1>Jane Doe</h1>
+                <p class="location">Bergen, Noruega</p>
+                <p class="occupacion">Desarrolladora Frontend</p>
+                <p class="skills">Conocimientos en HTML, CSS, JavaScript</p>
+                <a href="#" class="edit-link">⚙ Editar perfil</a>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+
+            <div class="list-box">
+                <div class="list-header">
+                    <h2>Solicitudes de conexión</h2>
+                    <button class="btn-view-all">Ver todas</button>
+                </div>
+                <ul class="list-content">
+                    <li class="user-item">
+                        <div class="user-info">
+                            <span class="user-icon"></span>
+                            <span class="user-name">Steve Jobs</span>
+                        </div>
+                        <div class="actions">
+                            <button class="btn-action accept">✔️</button>
+                            <button class="btn-action reshaso">✖️</button>
+                        </div>
+                    </li>
+                    <li class="user-item">
+                        <div class="user-info">
+                            <span class="user-icon"></span>
+                            <span class="user-name">Bill Gates</span>
+                        </div>
+                        <div class="actions">
+                            <button class="btn-action accept">✔️</button>
+                            <button class="btn-action reshaso">✖️</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list-box">
+                <div class="list-header">
+                    <h2>Tus conexiones</h2>
+                    <button class="btn-view-all">Ver todas</button>
+                </div>
+                <ul class="list-content">
+                    <li class="user-item">
+                        <div class="user-info">
+                            <span class="user-icon"></span>
+                            <span class="user-name">Richard Stallman</span>
+                        </div>
+                    </li>
+                        <div class="user-info">
+                            <span class="user-icon"></span>
+                            <span class="user-name">Linus Torvalds</span>
+                        </div>
+                    </li>
+                    <li class="user-item">
+                        <div class="user-info">
+                            <span class="user-icon"></span>
+                            <span class="user-name">Ada Lovelace</span>
+                        </div>
+                    </li>
+                    <li class="user-item">
+                        <div class="user-info">
+                            <span class="user-icon"></span>
+                            <span class="user-name">Grace Hopper</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+</body>
+
+</html>
