@@ -37,3 +37,21 @@ function manipularArreglo() {
     alert(listaTareas.join("-"));
     alert("Elementos del arreglo: " + eliminado);
 }
+
+function ejercicio1() {
+    let edades = [25, 28, 10, 24, 15];
+    let ultima = edades[edades.length - 1]
+    alert(`Primea edad: ${edades[0]}
+        \n Ultima edad: ${ultima}
+        \n edades totales: ${edades.length}`)
+}
+
+
+function ejercicio2() {
+    let nombres = ["messi", "Ariel", "Rafhael", "yopo", "alejanfro"]
+    for (let i = 0; i < nombres.length; i++) {
+
+        alert(nombres[i]);
+
+    }
+}
