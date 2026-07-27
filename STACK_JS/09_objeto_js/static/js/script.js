@@ -41,13 +41,13 @@ let hamburguesaEspecial = {
 
 let hamburguesaVegana = {
 
-    pan:"Integral",
+    pan: "Integral",
 
-    carne:"Proteína vegetal",
+    carne: "Proteína vegetal",
 
-    queso:"Vegano",
+    queso: "Vegano",
 
-    extras:[
+    extras: [
 
         "Tomate",
 
@@ -55,7 +55,7 @@ let hamburguesaVegana = {
 
     ],
 
-    mostrarIngredientes:function(){
+    mostrarIngredientes: function () {
 
         console.log(this.pan);
 
@@ -64,7 +64,16 @@ let hamburguesaVegana = {
         console.log(this.queso);
 
     }
-console.log(hamburguesaEspecial.mostrarIngredientes);
-
-hamburguesaVegana.mostrarIngredientes();
 };
+function mostrarInformacionCasa() {
+    let casa = {
+        direccion: "av. Siempre Viva 742",
+        habitacion: 4,
+        baños: 2,
+        mostrarInformacion: function () {
+            alert(`Direccion: ${this.direccion}`)
+            alert(`habitaciones: ${this.habitaciones}`)
+            alert(`bañosa: ${this.baños}`)
+        }
+    }
+}
