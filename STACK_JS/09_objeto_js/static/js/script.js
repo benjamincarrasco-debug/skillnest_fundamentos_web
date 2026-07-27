@@ -35,8 +35,7 @@ let hamburguesaEspecial = {
         );
 
     }
-console.log(hamburguesaEspecial.pan);
-hamburguesaEspecial.mostrarIngredientes();
+
 };
 
 
