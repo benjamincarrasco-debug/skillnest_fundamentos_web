@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f1f3f9;
+  color: #333;
+}
+.navbar {
+  background-color: #939bfb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  width: 45%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+#login-btn {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#login-btn:hover {
+  background-color: #4f46e5;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 30px auto;
+  gap: 25px;
+  padding: 0 20px;
+}
+
+.posts-section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+/* Tarjetas */
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.post-card h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.post-card .author, 
+.post-card .date {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.post-card .content {
+  font-size: 14px;
+  color: #555;
+  margin: 15px 0 20px 0;
+  line-height: 1.4;
+}
+
+/* Botones dentro de las tarjetas */
+.like-btn {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.like-btn:hover {
+  background-color: #ee5253;
+}
+
+.profile-card {
+  text-align: center;
+}
+
+.profile-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.profile-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+#profile-btn {
+  background-color: #00cec9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#profile-btn:hover {
+  background-color: #00b894;
+}
