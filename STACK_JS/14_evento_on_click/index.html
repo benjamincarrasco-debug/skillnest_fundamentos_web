@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Social Blog</title>
   <link rel="stylesheet" href="static/css/style.css">
 </head>
+
 <body>
 
   <header class="navbar">
@@ -15,32 +17,44 @@
   </header>
 
   <main class="container">
-    
-      
-      <article class="card post-card">
+
+
+    <section class="cja">
+
+      <div class="caja">
         <h2>Fundamentos de JavaScript</h2>
         <p class="author"><strong>Publicado por:</strong> Carlos Pérez</p>
         <p class="date"><strong>Fecha:</strong> 02/03/2025</p>
-        <p class="content">JavaScript es un lenguaje de programación que se utiliza en el desarrollo web. Aprende los conceptos básicos para comenzar a programar.</p>
+        <br>
+        <p class="content">JavaScript es un lenguaje de programación que se utiliza en el desarrollo web. Aprende los
+          conceptos básicos para comenzar a programar.</p>
+          <br>
         <button class="like-btn" id="megusta">12 Me gusta</button>
-
+</div>
+<div class="caja">
         <h2>Aprende a diseñar con CSS</h2>
         <p class="author"><strong>Publicado por:</strong> Ana Gómez</p>
         <p class="date"><strong>Fecha:</strong> 01/03/2025</p>
-        <p class="content">El diseño web es una parte fundamental en el desarrollo de aplicaciones web. Conoce las propiedades de CSS para crear interfaces atractivas.</p>
-        <button class="like-btn" id="mMegusta">30 Me gusta</button>
-  
+        <br>
+        <p class="content">El diseño web es una parte fundamental en el desarrollo de aplicaciones web. Conoce las
+          propiedades de CSS para crear interfaces atractivas.</p>
+          <br>
+        <button class="like-btn" id="meMegusta">30 Me gusta</button>
+      </div>
+
+
 
     </section>
-
+    <section>
       <div class="card profile-card">
         <h3>¡Bienvenido!</h3>
         <p>Explora nuevas publicaciones y conecta con otros usuarios.</p>
         <button id="profile-btn" onclick="mostrarAlertaPerfil()">Ver perfil</button>
       </div>
-
+    </section>
   </main>
 
   <script src="static/js/script.js"></script>
 </body>
+
 </html>

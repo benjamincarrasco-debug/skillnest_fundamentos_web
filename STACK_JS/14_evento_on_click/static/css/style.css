@@ -53,6 +53,7 @@ body {
   margin: 30px auto;
   gap: 25px;
   padding: 0 20px;
+  flex-direction: row;
 }
 
 .posts-section {
@@ -136,4 +137,15 @@ body {
 
 #profile-btn:hover {
   background-color: #00b894;
+}
+.caja{
+    background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+.cja{
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
 }
