@@ -11,38 +11,33 @@
   <header class="navbar">
     <h1 class="logo">Social Blog</h1>
     <input type="text" class="search-bar" placeholder="Buscar publicaciones...">
-    <button id="login-btn" onclick="toggleLogin(this)">Iniciar sesión</button>
+    <button id="login-btn" onclick="Resgistro()">Iniciar sesión</button>
   </header>
 
   <main class="container">
     
-    <section class="posts-section">
       
       <article class="card post-card">
         <h2>Fundamentos de JavaScript</h2>
         <p class="author"><strong>Publicado por:</strong> Carlos Pérez</p>
         <p class="date"><strong>Fecha:</strong> 02/03/2025</p>
         <p class="content">JavaScript es un lenguaje de programación que se utiliza en el desarrollo web. Aprende los conceptos básicos para comenzar a programar.</p>
-        <button class="like-btn" onclick="aumentarMeGusta(this)">12 Me gusta</button>
-      </article>
+        <button class="like-btn" id="megusta">12 Me gusta</button>
 
-      <article class="card post-card">
         <h2>Aprende a diseñar con CSS</h2>
         <p class="author"><strong>Publicado por:</strong> Ana Gómez</p>
         <p class="date"><strong>Fecha:</strong> 01/03/2025</p>
         <p class="content">El diseño web es una parte fundamental en el desarrollo de aplicaciones web. Conoce las propiedades de CSS para crear interfaces atractivas.</p>
-        <button class="like-btn" onclick="aumentarMeGusta(this)">30 Me gusta</button>
-      </article>
+        <button class="like-btn" id="mMegusta">30 Me gusta</button>
+  
 
     </section>
 
-    <aside class="sidebar">
       <div class="card profile-card">
         <h3>¡Bienvenido!</h3>
         <p>Explora nuevas publicaciones y conecta con otros usuarios.</p>
         <button id="profile-btn" onclick="mostrarAlertaPerfil()">Ver perfil</button>
       </div>
-    </aside>
 
   </main>
 

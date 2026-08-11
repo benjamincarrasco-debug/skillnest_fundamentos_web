@@ -1,5 +1,5 @@
 
-function toggleLogin(elemento) {
+function Resgistro(elemento) { 
     if (elemento.innerText === "Iniciar sesión") {
         elemento.innerText = "Cerrar sesión";
     } else {
@@ -10,11 +10,10 @@ function toggleLogin(elemento) {
 function mostrarAlertaPerfil() {
     alert("¡Cargando el perfil del usuario!");
 }
+let botonMegusta = document.getElementById("megusta")
+let megustas = 12
 
-function aumentarMeGusta(elemento) {
-    let cantidadLikes = parseInt(elemento.innerText);
-    
-    cantidadLikes++;
-    
-    elemento.innerText = cantidadLikes + " Me gusta";
-}
+botonMegusta.addEventListener ("click", function(){
+    megustas++
+    this.innerText = ${megustas} Me gustas;
+})

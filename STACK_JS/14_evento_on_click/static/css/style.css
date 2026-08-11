@@ -47,7 +47,6 @@ body {
   background-color: #4f46e5;
 }
 
-/* Layout */
 .container {
   display: flex;
   max-width: 1000px;
@@ -67,7 +66,6 @@ body {
   flex: 1;
 }
 
-/* Tarjetas */
 .card {
   background-color: #ffffff;
   padding: 25px;
@@ -94,7 +92,6 @@ body {
   line-height: 1.4;
 }
 
-/* Botones dentro de las tarjetas */
 .like-btn {
   background-color: #ff6b6b;
   color: white;
